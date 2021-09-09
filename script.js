@@ -30,12 +30,12 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
+// Adding event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 // Start Function
 function generatePassword() {
-  // Ask four user Input
+  // Asking for user Input
   passwordLength = prompt("Please choose the length of your password. You can choose minimum 8 and maximum 128 characters");
   console.log("Password length: " + passwordLength);
   
@@ -58,16 +58,16 @@ function generatePassword() {
 
   };
 
-  // Below alert if user does not select any of the criteria
+  // Below alert will be displayed if user does not select any of the criteria
   if (!charLower && !charUpper && !randomNumber && !charSpecial) {
     userChoices = alert("Invalid selection. Please choose at least one criteria");
   
-    // 4 true options
+    // If all the 4 options are selected by the user
   } else if (charLower && charUpper && randomNumber && charSpecial) {
     userChoices = lowerCase.concat(upperCase, numbers, special);
     console.log(userChoices);
   }
-  // 3 true options
+  // If there are options selected by the user
   else if (charLower && charUpper && randomNumber) {
     userChoices = lowerCase.concat(upperCase, numbers);
     console.log(userChoices);
@@ -84,7 +84,7 @@ function generatePassword() {
     userChoices = upperCase.concat(numbers, special);
     console.log(userChoices);
   }
-  // 2 true options
+  // if only 2 options are selected by the user
   else if (charLower && charUpper) {
     userChoices = lowerCase.concat(upperCase);
     console.log(userChoices);
@@ -109,7 +109,7 @@ function generatePassword() {
     userChoices = numbers.concat(special);
     console.log(userChoices);
   }
-  // 1 true option
+  // If user selects only 1 option
   else if (charLower) {
     userChoices = lowerCase;
     console.log(userChoices);
@@ -127,10 +127,10 @@ function generatePassword() {
     console.log(userChoices);
   };
 
-  // Empty variable for the password length
+  // Empty variable - password length
   var passwordBlank = [];
   
-  // Loop for random selection
+  // for loop for random character selection
   for (var i = 0; i < passwordLength; i++) {
     var allChoices = userChoices[Math.floor(Math.random() * userChoices.length)];
     passwordBlank.push(allChoices);
