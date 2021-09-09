@@ -2,8 +2,8 @@
 Random Password Generator in JS
 This is my first JS project. 
 I have added comments to make it easy to understand the code. 
-I have primarily used IF, IF-ELSE and ELSE statements along with for loop.
-It wil create random passwords depending on criteria the user selects.
+I have primarily used IF, IF-ELSE and ELSE statements along with FOR loop.
+It will create random passwords depending on criteria the user selects.
 The criterias are as below:
 1) password lenght between 8 and 128 characters
 2) Include Lowercase characters
