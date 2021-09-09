@@ -16,5 +16,6 @@ In addition I have also included the screenshot of the password generated after 
 
 Please see below the deployed URL and the screenshot
 
+URL:https://kashpateltech.github.io/Randompasswordgenerator/
 
 <img width="892" alt="Password Generator Screenshot" src="https://user-images.githubusercontent.com/88652187/132668565-131d2a56-e30c-477c-95a4-8ddb2ad0b9ff.png">
