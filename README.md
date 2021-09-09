@@ -12,4 +12,4 @@ The criterias are as below:
 5) Special characters ( I have used limited number of password characters to keep it simple)
 
 Once the user the has selected the criterias it will create a random password.
-In addition i have also included the screenshot of the password generated after selecting all of the above criterias.
+In addition I have also included the screenshot of the password generated after selecting all of the above criterias.
